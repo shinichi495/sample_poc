@@ -3,6 +3,9 @@ package com.nab.data.entity.response.weather
 import com.google.gson.annotations.SerializedName
 import com.nab.data.base.BaseResponse
 import com.nab.domain.models.GetWeatherResult
+import java.math.BigDecimal
+import java.math.RoundingMode
+import java.text.DecimalFormat
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -89,8 +92,7 @@ data class WeatherResponse(
         if (min == null || max == null) return 0.0
         val sum = listOf(min, max)
         val avg = sum.average() - 272.15
-        val convertToString = String.format("%.2f", avg)
-        val result = java.lang.Double.parseDouble(convertToString)
-        return result
+        val result = BigDecimal(avg).setScale(2,RoundingMode.HALF_UP)
+        return result.toDouble()
     }
 }
