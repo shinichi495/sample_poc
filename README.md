@@ -107,13 +107,8 @@ and supports coroutines out of the box.
 - [kotlinx.coroutines](https://github.com/Kotlin/kotlinx.coroutines) - Library Support for coroutines,provides `runBlocking` coroutine builder used in tests
 - [Truth](https://truth.dev/) - Assertions Library,provides readability as far as assertions are concerned
 - [Material Design](https://material.io/develop/android/docs/getting-started/) - build awesome beautiful UIs.🔥🔥
-- [Firebase](https://firebase.google.com/) - Backend As A Service for faster mobile development.
-  - [Crashylitics](https://firebase.google.com/docs/crashlytics) - Provide Realtime crash reports from users end.
 - [Koin](https://github.com/InsertKoinIO/koin) - A pragmatic lightweight dependency injection framework for Kotlin
 - [Robolectric](http://robolectric.org/) - Unit test on android framework.
-- [Espresso](https://developer.android.com/training/testing/espresso) - Test framework to write UI Tests
-- [recyclerview-animators](https://github.com/wasabeef/recyclerview-animators) - Recycler View Animations
-
 
  ## What we done 
 
