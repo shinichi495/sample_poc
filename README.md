@@ -1,7 +1,7 @@
 
 # Weather Forecaste
 
-This one will be supplied for Interview Process of NAB 
+This one will be supplied for Interview Process 
 
 # The-Force
 
