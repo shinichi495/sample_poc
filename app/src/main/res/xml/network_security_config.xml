@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="false">
+        <pin-set>
+            <pin digest="SHA-256">axmGTWYycVN5oCjh3GJrxWVndLSZjypDO6evrHMwbXg=</pin>
+            <pin digest="SHA-256">4a6cPehI7OG6cuDZka5NDZ7FR8a60d3auda+sKfg4Ng=</pin>
+            <pin digest="SHA-256">x4QzPSC810K5/cMjb05Qm4k3Bw5zBn4lTdO/nEW/Td4=</pin>
+
+        </pin-set>
+        <domain includeSubdomains="true">openweathermap.org</domain>
+    </domain-config>
+
+</network-security-config>
